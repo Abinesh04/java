@@ -1,0 +1,17 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+     HashMap<String,String>map=new HashMap<>();
+        
+        //INSERTION
+        map.put("TN","Tamilnadu");
+        map.put("KA","Karanataka");
+        map.put("KL","Kerala");
+        //SEARCH
+        System.out.println(map.get("TN"));
+        System.out.println(map.get("KL"));
+        System.out.println(map.get("AP"));
+        System.out.println(map.getOrDefault("AP","NOT FOUND"));
+        //REMOVE
+    }
+}
